@@ -21,7 +21,7 @@ public class FileUploadController {
 	
 	@PostMapping("/upload-file")
 	public ResponseEntity<String> uploadFile(@RequestParam("photo") MultipartFile  file) {
-		
+		 
 //		System.out.println(file.getOriginalFilename()); 
 //		System.out.println(file.getSize()); 
 //		System.out.println(file.getContentType());
